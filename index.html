@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>대연동 7월 밤하늘 밝은 별 TOP 5</title>
+  <title>대연동 6월 밤하늘 밝은 별 TOP 5</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -31,7 +31,7 @@
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.5);
       margin: 20px;
-      width: 280px;
+      width: 320px;
       overflow: hidden;
       transition: transform 0.2s;
     }
@@ -48,6 +48,32 @@
     .card-content p {
       font-size: 14px;
       line-height: 1.6;
+    }
+    .constellation {
+      margin-top: 16px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 12px;
+      padding: 12px;
+    }
+    .constellation svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .constellation circle {
+      fill: #fff;
+      stroke: #ffd700;
+      stroke-width: 1.5;
+    }
+    .constellation line {
+      stroke: rgba(255,215,0,0.7);
+      stroke-width: 1.8;
+      stroke-linecap: round;
+    }
+    .constellation text {
+      fill: #fff;
+      font-size: 11px;
+      font-family: 'Segoe UI', sans-serif;
     }
     footer {
       background: #1428a0;
@@ -69,6 +95,24 @@
       <div class="card-content">
         <h2>1위: 아크투루스 (Arcturus)</h2>
         <p>목동자리의 가장 밝은 별. 주황색 거성으로 북두칠성 손잡이를 따라가면 쉽게 찾을 수 있습니다.</p>
+        <div class="constellation">
+          <svg viewBox="0 0 300 200" aria-label="목동자리 별자리 그림">
+            <line x1="40" y1="160" x2="90" y2="120" />
+            <line x1="90" y1="120" x2="150" y2="80" />
+            <line x1="150" y1="80" x2="220" y2="60" />
+            <line x1="150" y1="80" x2="180" y2="150" />
+            <circle cx="40" cy="160" r="5" />
+            <circle cx="90" cy="120" r="5" />
+            <circle cx="150" cy="80" r="6" />
+            <circle cx="220" cy="60" r="4" />
+            <circle cx="180" cy="150" r="4" />
+            <text x="36" y="176">알카이드</text>
+            <text x="70" y="138">메라크</text>
+            <text x="140" y="64">아크투루스</text>
+            <text x="200" y="46">쉐밤</text>
+            <text x="168" y="166">메그레즈</text>
+          </svg>
+        </div>
       </div>
     </div>
 
@@ -76,6 +120,24 @@
       <div class="card-content">
         <h2>2위: 폴라리스 (Polaris)</h2>
         <p>작은곰자리의 끝에 위치한 북극성. 하늘에서 거의 움직이지 않아 방향을 잡는 기준점이 됩니다.</p>
+        <div class="constellation">
+          <svg viewBox="0 0 300 200" aria-label="작은곰자리 별자리 그림">
+            <line x1="40" y1="50" x2="80" y2="80" />
+            <line x1="80" y1="80" x2="120" y2="110" />
+            <line x1="120" y1="110" x2="170" y2="130" />
+            <line x1="170" y1="130" x2="230" y2="80" />
+            <circle cx="40" cy="50" r="4" />
+            <circle cx="80" cy="80" r="5" />
+            <circle cx="120" cy="110" r="4" />
+            <circle cx="170" cy="130" r="6" />
+            <circle cx="230" cy="80" r="4" />
+            <text x="34" y="38">코카브</text>
+            <text x="70" y="72">포말하우트</text>
+            <text x="112" y="104">폴라리스</text>
+            <text x="162" y="148">드루와</text>
+            <text x="220" y="68">베타</text>
+          </svg>
+        </div>
       </div>
     </div>
 
@@ -83,6 +145,21 @@
       <div class="card-content">
         <h2>3위: 스피카 (Spica)</h2>
         <p>처녀자리의 대표 별. 푸른빛을 띠며 봄~초여름에 잘 보이는 밝은 별입니다.</p>
+        <div class="constellation">
+          <svg viewBox="0 0 300 200" aria-label="처녀자리 별자리 그림">
+            <line x1="70" y1="30" x2="120" y2="80" />
+            <line x1="120" y1="80" x2="180" y2="130" />
+            <line x1="120" y1="80" x2="120" y2="150" />
+            <circle cx="70" cy="30" r="4" />
+            <circle cx="120" cy="80" r="6" />
+            <circle cx="180" cy="130" r="4" />
+            <circle cx="120" cy="150" r="4" />
+            <text x="62" y="18">스피카</text>
+            <text x="112" y="68">자차</text>
+            <text x="172" y="118">파우카스</text>
+            <text x="132" y="168">루프칠</text>
+          </svg>
+        </div>
       </div>
     </div>
 
@@ -90,10 +167,58 @@
       <div class="card-content">
         <h2>4위: 안타레스 (Antares)</h2>
         <p>전갈자리의 심장에 해당하는 붉은 초거성. 여름 남쪽 하늘에서 쉽게 찾을 수 있습니다.</p>
+        <div class="constellation">
+          <svg viewBox="0 0 300 200" aria-label="전갈자리 별자리 그림">
+            <line x1="50" y1="90" x2="100" y2="60" />
+            <line x1="100" y1="60" x2="140" y2="95" />
+            <line x1="140" y1="95" x2="180" y2="75" />
+            <line x1="140" y1="95" x2="200" y2="140" />
+            <line x1="200" y1="140" x2="250" y2="170" />
+            <circle cx="50" cy="90" r="4" />
+            <circle cx="100" cy="60" r="4" />
+            <circle cx="140" cy="95" r="6" />
+            <circle cx="180" cy="75" r="4" />
+            <circle cx="200" cy="140" r="4" />
+            <circle cx="250" cy="170" r="4" />
+            <text x="42" y="102">자이</text>
+            <text x="92" y="52">스카프</text>
+            <text x="132" y="107">안타레스</text>
+            <text x="172" y="67">타우</text>
+            <text x="192" y="152">산타</text>
+            <text x="242" y="182">크산</text>
+          </svg>
+        </div>
       </div>
     </div>
 
     <div class="card">
       <div class="card-content">
         <h2>5위: 베가 (Vega)</h2>
-        <p>거문고자리의 대표 별. 여름철 대삼각형
+        <p>거문고자리의 대표 별. 여름철 대삼각형의 한 꼭짓점으로 매우 눈에 띄는 별입니다.</p>
+        <div class="constellation">
+          <svg viewBox="0 0 300 200" aria-label="거문고자리 별자리 그림">
+            <line x1="50" y1="140" x2="100" y2="90" />
+            <line x1="100" y1="90" x2="150" y2="60" />
+            <line x1="150" y1="60" x2="210" y2="110" />
+            <line x1="210" y1="110" x2="260" y2="160" />
+            <circle cx="50" cy="140" r="4" />
+            <circle cx="100" cy="90" r="4" />
+            <circle cx="150" cy="60" r="6" />
+            <circle cx="210" cy="110" r="4" />
+            <circle cx="260" cy="160" r="4" />
+            <text x="42" y="154">쉐라</text>
+            <text x="92" y="82">델타</text>
+            <text x="142" y="52">베가</text>
+            <text x="202" y="124">알타이르</text>
+            <text x="252" y="176">사브</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>별자리 그림과 함께 이번 달 대표 밝은 별을 소개합니다.</p>
+  </footer>
+</body>
+</html>
